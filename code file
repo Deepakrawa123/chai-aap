@@ -15,7 +15,7 @@ st.write(f"Selected base {tea_type}")
 flavour = st.selectbox("Choose flavour: ", ["Adrak", "Kesar", "Tulsi"])
 st.write(f"Selected Flavour {flavour}")
 
-sugar = st.slider("Sigar level (spoon)", 0, 5, 4)
+sugar = st.slider("Sugar level (spoon)", 0, 5, 4)
 st.write(f"Selected sugar level {sugar}")
 
 cups = st.number_input("How many cups", min_value=1, max_value=10, step=1)
